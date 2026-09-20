@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Humanlike Autoclicker"
+  short_description: "Build safe desktop autoclickers with curved motion"
+  default_prompt: "Use $build-humanlike-autoclicker to create or improve a desktop autoclicker with randomized regions and interruptible curved mouse movement."
