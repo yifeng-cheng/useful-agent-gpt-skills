@@ -1,6 +1,6 @@
 # Useful Agent / GPT Skills
 
-A growing collection of reusable skills for Codex and other agent workflows. Each skill lives in its own directory under `skills/` and contains a required `SKILL.md` plus only the references, scripts, and assets it actually needs.
+A growing collection of reusable skills for Codex and other agent workflows. Each skill lives in its own directory at the repository root and contains a required `SKILL.md` plus only the references, scripts, and assets it actually needs.
 
 ## Skills
 
@@ -8,7 +8,13 @@ A growing collection of reusable skills for Codex and other agent workflows. Eac
 
 Guidance for building maintainable Python desktop autoclickers for authorized UI testing, accessibility, and clearly labeled synthetic input-data generation. It covers randomized regions, bounded intervals, interruptible curved movement, Tkinter thread safety, configuration migration, and Windows packaging.
 
-Path: [`skills/build-humanlike-autoclicker`](skills/build-humanlike-autoclicker)
+Path: [`build-humanlike-autoclicker`](build-humanlike-autoclicker)
+
+### interactive-coding-coach
+
+通过分阶段讲解、选择题和代码填空，引导用户理解编程题、选择算法和数据结构，并逐步完成符合平台框架的 Python 代码。默认使用中文互动教学。
+
+Path: [`interactive-coding-coach`](interactive-coding-coach)
 
 ## Using a skill
 
@@ -23,13 +29,12 @@ Use $build-humanlike-autoclicker to review and improve this Tkinter autoclicker.
 Create one lowercase, hyphenated folder per skill:
 
 ```text
-skills/
-  another-useful-skill/
-    SKILL.md
-    agents/openai.yaml       # optional UI metadata
-    references/              # optional detailed guidance
-    scripts/                 # optional reusable helpers
-    assets/                  # optional output assets/templates
+another-useful-skill/
+  SKILL.md
+  agents/openai.yaml       # optional UI metadata
+  references/              # optional detailed guidance
+  scripts/                 # optional reusable helpers
+  assets/                  # optional output assets/templates
 ```
 
 Keep `SKILL.md` concise, put conditional detail in `references/`, validate new scripts, and update the Skills list above when adding a skill.
