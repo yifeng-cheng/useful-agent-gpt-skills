@@ -16,6 +16,16 @@ Path: [`build-humanlike-autoclicker`](build-humanlike-autoclicker)
 
 Path: [`interactive-coding-coach`](interactive-coding-coach)
 
+### travel-guide-app
+
+将旅行资料整理成通用的手机旅游攻略 App：逐日行程、导航、美食、清单、本机保存、离线 PWA，以及可选的截图识别。
+
+Path: [`travel-guide-app`](travel-guide-app)
+
+## Example projects
+
+- [`kl-sg-trip`](kl-sg-trip): 吉隆坡—新加坡旅行助手原始项目快照（非通用 skill），保留原有页面、图标和说明。来源：https://github.com/yifeng-cheng/kl-sg-trip ，快照提交：95359e49dc76f613620355645a0409aec59fae5a。
+
 ## Using a skill
 
 Copy the selected skill folder into your Codex skills directory, or install it from this repository with your normal skill-installation workflow. Invoke it by name, for example:
