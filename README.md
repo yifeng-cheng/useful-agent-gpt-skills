@@ -24,7 +24,7 @@ Path: [`travel-guide-app`](travel-guide-app)
 
 ## Example projects
 
-- [`kl-sg-trip`](kl-sg-trip): 吉隆坡—新加坡旅行助手原始项目快照（非通用 skill），保留原有页面、图标和说明。来源：https://github.com/yifeng-cheng/kl-sg-trip ，快照提交：95359e49dc76f613620355645a0409aec59fae5a。
+- [`travel-guide-app/examples/kl-sg-trip`](travel-guide-app/examples/kl-sg-trip): 吉隆坡—新加坡旅行助手原始项目快照（非通用 skill），保留原有页面、图标和说明。来源：https://github.com/yifeng-cheng/kl-sg-trip ，快照提交：95359e49dc76f613620355645a0409aec59fae5a。
 
 ## Using a skill
 
